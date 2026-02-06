@@ -60,8 +60,8 @@ Plot the performance plot
 Evaluate the model with the testing data.
 
 ## PROGRAM
-### Name:D.B.V.SAI GANESH
-### Register Number: 212223240025
+### Name: Keerthivasan K S
+### Register Number: 212224230120
 ```python
 class Neuralnet(nn.Module):
    def __init__(self):
