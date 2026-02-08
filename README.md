@@ -110,7 +110,7 @@ def train_model(sai_brain,x_train,y_train,criteria,optmizer,epochs=4000):
 
 ### New Sample Data Prediction
 
-<img width="968" height="148" alt="image" src="https://github.com/user-attachments/assets/7cdd7cbf-b82a-4422-8952-af87afb2ad8c" />
+<img width="1171" height="186" alt="image" src="https://github.com/user-attachments/assets/f58df47d-0575-4347-bfaa-1a4a83edb701" />
 
 ## RESULT
 
