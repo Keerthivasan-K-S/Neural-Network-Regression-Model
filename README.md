@@ -27,7 +27,7 @@ Input x is first passed through n1 and activated by ReLU, then through n2 with R
 Finally, the processed data passes through n3 to produce the output, which is returned.
 ## Neural Network Model
 
-<img width="770" height="766" alt="image" src="https://github.com/user-attachments/assets/4aeb2858-739e-4068-9dcb-f3b6ba00b875" />
+<img width="763" height="556" alt="image" src="https://github.com/user-attachments/assets/82a5deee-a61c-4656-979a-daf6aefe3c28" />
 
 ## DESIGN STEPS
 
