@@ -1,11 +1,9 @@
 # Developing a Neural Network Regression Model
 
 ## AIM
-
 To develop a neural network regression model for the given dataset.
 
 ## THEORY
-
 The class NeuralNet inherits from nn.Module, which is the base class for all neural networks in PyTorch.
 
 In the constructor init, layers and activation functions are defined.
@@ -30,7 +28,6 @@ Finally, the processed data passes through n3 to produce the output, which is re
 <img width="763" height="556" alt="image" src="https://github.com/user-attachments/assets/82a5deee-a61c-4656-979a-daf6aefe3c28" />
 
 ## DESIGN STEPS
-
 ### STEP 1:
 
 Loading the dataset
@@ -77,7 +74,6 @@ class Neuralnet(nn.Module):
         x=self.n3(x)
         return x
 
-
 # Initialize the Model, Loss Function, and Optimizer
 sai_brain=Neuralnet()
 criteria=nn.MSELoss()
@@ -98,21 +94,17 @@ def train_model(sai_brain,x_train,y_train,criteria,optmizer,epochs=4000):
 
 ```
 ## Dataset Information
-
 <img width="333" height="680" alt="image" src="https://github.com/user-attachments/assets/a001022d-4b21-4d56-947c-6e1037612a1f" />
 
 ## OUTPUT
 <img width="504" height="467" alt="image" src="https://github.com/user-attachments/assets/6d1883bb-dd64-49cb-b5ad-53180ee50769" />
 
 ### Training Loss Vs Iteration Plot
-
 <img width="823" height="582" alt="image" src="https://github.com/user-attachments/assets/d0018684-ac85-4a6a-a742-d0614eb5d6a7" />
 
 ### New Sample Data Prediction
-
 <img width="1171" height="186" alt="image" src="https://github.com/user-attachments/assets/f58df47d-0575-4347-bfaa-1a4a83edb701" />
 
 ## RESULT
-
-Successfully executed the code to develop a neural network regression model.
+Successfully executed the cod to develop a neural network regression model.
 
